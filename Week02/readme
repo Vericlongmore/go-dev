@@ -1,10 +1,7 @@
 建议dao层还是区分一下，
-if err != nil {
-if errors.Is(err, sql.ErrNoRows) {
-return nil, fmt.Errorf("sql:%s error:[%w]", sql, code.ErrNotFound)
-}
-return nil, errors.Wrapf(code.ErrDBServer, fmt.Sprintf("query: %s error(%v)", sql, err))
-}
-
+		if errors.Is(err, sql.ErrNoRows) {
+			return nil, errors.Wrapf(ErrNotFound, fmt.Sprintf("sql: %s error(%v)", sqls, err))
+		}
+		return nil, errors.Wrapf(ErrDBServer, fmt.Sprintf("query: %s error(%v)", sqls, err))
 在biz层根据
 errors.Is(err, code.ErrNotFound) 来判断
