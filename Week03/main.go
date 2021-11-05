@@ -13,10 +13,10 @@ import (
 )
 
 func main() {
-	g, ctx := errgroup.WithContext(context.Background())
+	eg, ctx := errgroup.WithContext(context.Background())
 	svr := http.Server{Addr: ":8088"}
 	// http server
-	g.Go(func() error {
+	eg.Go(func() error {
 		go func() {
 			<-ctx.Done()
 			fmt.Println("http done")
@@ -26,7 +26,7 @@ func main() {
 	})
 
 	// signal
-	g.Go(func() error {
+	eg.Go(func() error {
 		exitSignals := []os.Signal{os.Interrupt, syscall.SIGTERM, syscall.SIGQUIT, syscall.SIGINT}
 		sig := make(chan os.Signal, len(exitSignals))
 		signal.Notify(sig, exitSignals...)
@@ -42,13 +42,15 @@ func main() {
 	})
 
 	// make error
-	g.Go(func() error {
+	eg.Go(func() error {
 		fmt.Println("make error start")
 		time.Sleep(time.Second)
 		fmt.Println("make finish")
 		return errors.New("make error wrapper")
 	})
 
-	err := g.Wait()
-	fmt.Println(err, "\r\n first error return , all exit")
+	err := eg.Wait()
+	if err != nil {
+		fmt.Println(err, "\r\n first error return , all exit")
+	}
 }
