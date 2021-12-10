@@ -1,4 +1,4 @@
-###命令:
+###问题1、命令:
 ```
 redis-benchmark -d 10 -t get,set
 ```
@@ -23,3 +23,8 @@ redis-benchmark -d 10 -t get,set
 |1k|100000 requests completed in 0.63 seconds|158730.16 requests per second|
 |5k|100000 requests completed in 0.67 seconds|149476.83 requests per second|
 
+##问题2、
+
+```golang
+go run main.go
+```
