@@ -18,26 +18,24 @@ const (
 
 func init() {
 	client = redis.NewClient(&redis.Options{
-		Addr:         fmt.Sprintf("%v:%v", ip, port),
-		Password:     "",
-		DB:           0,
-		PoolSize:     128,
-		MinIdleConns: 100,
-		MaxRetries:   5,
+		Addr:     fmt.Sprintf("%v:%v", ip, port),
+		Password: "",
+		DB:       0,
 	})
 
 	ctx = context.Background()
 }
 
 func main() {
-	write(10000, "len10_10k", generateValue(10))
-	write(50000, "len10_50k", generateValue(10))
-	write(500000, "len10_500k", generateValue(10))
+	write(10000, "10k", generateValue(10))
+	write(50000, "50k", generateValue(10))
+	write(500000, "500k", generateValue(10))
 
-	analysis()
+	reports()
 }
 
 func write(num int, key, value string) {
+	fmt.Println(value)
 	for i := 0; i < num; i++ {
 		k := fmt.Sprintf("%s:%v", key, i)
 		cmd := client.Set(ctx, k, value, 100*time.Second)
@@ -48,12 +46,13 @@ func write(num int, key, value string) {
 	}
 }
 
-func analysis() {
+func reports() {
 	analysis, err := gorma.NewAnalysisConnection(ip, port, "")
 	if err != nil {
 		fmt.Println("something wrong:", err)
 		return
 	}
+
 	defer analysis.Close()
 
 	analysis.Start([]string{":"})
