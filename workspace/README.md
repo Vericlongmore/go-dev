@@ -23,9 +23,19 @@
 
 3、添加cancl 数据同步到es，后台运营查询压力下放
 
+## 网关
+
+采用k8s + traefix，使用rancher2管理，
+tracefix集成forward 中间件进行auth，可以用来验证token + etcd client
+
+
+
+## 注册中心
+
+使用etcd 服务发现与注册
 
 ### 改造后如图
-![图1.1 架构现状](./ssr-new.png) 
+![图1.1 架构现状](./ssr-new-end.png) 
 
 ### 毕业总结
 
