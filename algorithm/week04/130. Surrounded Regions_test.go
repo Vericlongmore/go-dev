@@ -25,7 +25,6 @@ type ans130 struct {
 func Test_Problem130(t *testing.T) {
 
 	qs := []question130{
-
 		{
 			para130{[][]byte{}},
 			ans130{[][]byte{}},

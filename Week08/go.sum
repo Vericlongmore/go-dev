@@ -1,3 +1,5 @@
+github.com/Vericlongmore/go-redis-memory-analysis v2.0.6+incompatible h1:7jdklRvaLARU2lCBY8/hwpzMrnC0XzvDhB16u2rnu/s=
+github.com/Vericlongmore/go-redis-memory-analysis v2.0.6+incompatible/go.mod h1:KXM9exjwhsbLi3rFTv4tKIWL8Y6nwuui/mx41sGfFfI=
 github.com/cespare/xxhash/v2 v2.1.1 h1:6MnRN8NT7+YBpUIWxHtefFZOKTAPgGjpQSxqLNn0+qY=
 github.com/cespare/xxhash/v2 v2.1.1/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XLFGgcrjCOs=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
