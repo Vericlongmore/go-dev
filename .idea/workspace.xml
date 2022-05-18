@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e4f5375-0e45-41b0-9661-35295aab02b1" name="Default Changelist" comment="test trace" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$USER_HOME$/.gvm/gos/go1.16.12" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/../.." />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="20Aem59W4fvbNQMkn74oEm3fqUK" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kafka_checker" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kafka_checker" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Week09" />
+      <recent name="$PROJECT_DIR$/algorithm/week04" />
+      <recent name="$PROJECT_DIR$/algorithm/structures" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kafka_checker" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Week09" />
+      <recent name="$PROJECT_DIR$/algorithm" />
+      <recent name="$PROJECT_DIR$/Week05" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build go-dev/demo">
+    <configuration name="go build go-dev/Week09" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-dev" />
+      <working_directory value="$PROJECT_DIR$/Week09" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/Week09/goim_decoder.go" />
+      <package value="go-dev/Week09" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-dev/algorithm/week07" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-dev" />
+      <working_directory value="$PROJECT_DIR$/algorithm" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/algorithm/week07/main.go" />
+      <package value="go-dev/algorithm/week07" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-dev/demo (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-dev" />
+      <working_directory value="$PROJECT_DIR$/demo" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/demo/mijie.go" />
+      <package value="go-dev/demo" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-dev/demo (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-dev" />
+      <working_directory value="$PROJECT_DIR$/demo" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/demo/slice_problem.go" />
+      <package value="go-dev/demo" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-dev/demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-dev" />
+      <working_directory value="$PROJECT_DIR$/demo" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/demo/trace_demo.go" />
+      <package value="go-dev/demo" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build go-dev/demo" />
+        <item itemvalue="Go Build.go build go-dev/demo (2)" />
+        <item itemvalue="Go Build.go build go-dev/algorithm/week07" />
+        <item itemvalue="Go Build.go build go-dev/demo (1)" />
+        <item itemvalue="Go Build.go build go-dev/Week09" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="err handler" />
+    <MESSAGE value="error group" />
+    <MESSAGE value="wire test" />
+    <MESSAGE value="05 Microservice availability" />
+    <MESSAGE value="week05" />
+    <MESSAGE value="week01" />
+    <MESSAGE value="week08" />
+    <MESSAGE value="week04" />
+    <MESSAGE value="week09" />
+    <MESSAGE value="test trace" />
+    <option name="LAST_COMMIT_MESSAGE" value="test trace" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="439" y="232" width="712" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1648726326667">
+      <screen x="0" y="27" width="1600" height="808" />
+    </state>
+    <state x="439" y="232" width="712" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1600.808@0.27.1600.808" timestamp="1648726326667" />
+    <state x="502" y="200" key="FileChooserDialogImpl" timestamp="1649682450874">
+      <screen x="0" y="27" width="1600" height="808" />
+    </state>
+    <state x="502" y="200" key="FileChooserDialogImpl/0.27.1600.808@0.27.1600.808" timestamp="1649682450874" />
+    <state x="602" y="239" key="FileChooserDialogImpl/0.27.1920.988@0.27.1920.988" timestamp="1645175997652" />
+    <state width="1554" height="244" key="GridCell.Tab.0.bottom" timestamp="1652341163783">
+      <screen x="0" y="27" width="1600" height="808" />
+    </state>
+    <state width="1554" height="244" key="GridCell.Tab.0.bottom/0.27.1600.808@0.27.1600.808" timestamp="1652341163783" />
+    <state width="1874" height="258" key="GridCell.Tab.0.bottom/0.27.1920.988@0.27.1920.988" timestamp="1647427971926" />
+    <state width="1554" height="244" key="GridCell.Tab.0.center" timestamp="1652341163783">
+      <screen x="0" y="27" width="1600" height="808" />
+    </state>
+    <state width="1554" height="244" key="GridCell.Tab.0.center/0.27.1600.808@0.27.1600.808" timestamp="1652341163783" />
+    <state width="1874" height="258" key="GridCell.Tab.0.center/0.27.1920.988@0.27.1920.988" timestamp="1647427971926" />
+    <state width="1554" height="244" key="GridCell.Tab.0.left" timestamp="1652341163782">
+      <screen x="0" y="27" width="1600" height="808" />
+    </state>
+    <state width="1554" height="244" key="GridCell.Tab.0.left/0.27.1600.808@0.27.1600.808" timestamp="1652341163782" />
+    <state width="1874" height="258" key="GridCell.Tab.0.left/0.27.1920.988@0.27.1920.988" timestamp="1647427971925" />
+    <state width="1554" height="244" key="GridCell.Tab.0.right" timestamp="1652341163783">
+      <screen x="0" y="27" width="1600" height="808" />
+    </state>
+    <state width="1554" height="244" key="GridCell.Tab.0.right/0.27.1600.808@0.27.1600.808" timestamp="1652341163783" />
+    <state width="1874" height="258" key="GridCell.Tab.0.right/0.27.1920.988@0.27.1920.988" timestamp="1647427971926" />
+    <state width="1874" height="308" key="GridCell.Tab.1.bottom" timestamp="1647437906421">
+      <screen x="0" y="27" width="1600" height="808" />
+    </state>
+    <state width="1874" height="308" key="GridCell.Tab.1.bottom/0.27.1600.808@0.27.1600.808" timestamp="1647437906421" />
+    <state width="1874" height="308" key="GridCell.Tab.1.bottom/0.27.1920.988@0.27.1920.988" timestamp="1647316101564" />
+    <state width="1874" height="308" key="GridCell.Tab.1.center" timestamp="1647437906400">
+      <screen x="0" y="27" width="1600" height="808" />
+    </state>
+    <state width="1874" height="308" key="GridCell.Tab.1.center/0.27.1600.808@0.27.1600.808" timestamp="1647437906400" />
+    <state width="1874" height="308" key="GridCell.Tab.1.center/0.27.1920.988@0.27.1920.988" timestamp="1647316101563" />
+    <state width="1874" height="308" key="GridCell.Tab.1.left" timestamp="1647437906400">
+      <screen x="0" y="27" width="1600" height="808" />
+    </state>
+    <state width="1874" height="308" key="GridCell.Tab.1.left/0.27.1600.808@0.27.1600.808" timestamp="1647437906400" />
+    <state width="1874" height="308" key="GridCell.Tab.1.left/0.27.1920.988@0.27.1920.988" timestamp="1647316101563" />
+    <state width="1874" height="308" key="GridCell.Tab.1.right" timestamp="1647437906411">
+      <screen x="0" y="27" width="1600" height="808" />
+    </state>
+    <state width="1874" height="308" key="GridCell.Tab.1.right/0.27.1600.808@0.27.1600.808" timestamp="1647437906411" />
+    <state width="1874" height="308" key="GridCell.Tab.1.right/0.27.1920.988@0.27.1920.988" timestamp="1647316101564" />
+    <state x="623" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1647260265476">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="623" y="241" width="672" height="678" key="search.everywhere.popup/0.27.1920.988@0.27.1920.988" timestamp="1647260265476" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/demo/sliceTest.go</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/demo/sliceTest.go</url>
+          <line>11</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/demo/sliceTest.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$USER_HOME$/.gvm/gos/go1.15/src/runtime/slice.go</url>
+          <line>126</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$USER_HOME$/.gvm/gos/go1.15/src/runtime/slice.go</url>
+          <line>124</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$USER_HOME$/.gvm/gos/go1.15/src/runtime/slice.go</url>
+          <line>144</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

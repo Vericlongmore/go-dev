@@ -1,0 +1,15 @@
+{
+    "KafkaConfig": {
+        "Version": "0.10.2.0",
+        "Brokers": [
+        "127.0.0.1:9092"
+        ],
+        "Topic": "docment-update-test-1000",
+        "ConsumerGroup": "test-group",
+        "OldestOffset": false,
+        "ConsumeThreads": 1,
+        "ConsumerReturnErrors": true
+    }
+    
+}
+
